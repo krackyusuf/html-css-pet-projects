@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+.container-fluid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+header {
+    z-index: 1020;
+    padding-top: 20px;
+    background: transparent;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+header nav {
+    display: flex;
+    background: transparent;
+    padding: 0 3rem !important;
+}
+
+header nav ul {
+   display: flex;
+   list-style-type: none;
+}
+header .logo {
+  border: 2px solid rgb(35, 46, 20)
+}
+header .logo span {
+ padding: 5px;
+ color: green;
+ background-color: transparent;
+}
+header .nav-item {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+header .nav-item a {
+    color: blueviolet;
+}
+header .nav-item a:hover {
+    color: rgb(27, 170, 22);
+}
+header .nav-item li {
+   margin-left: 10px;
+}
+header .nav-item button {
+ background-color: black;
+ border: none;
+ border-radius: 5px;
+ padding: 0 10px;
+}
+
+/* home styling start */
+.home-section {
+    position: relative;
+    overflow-x: hidden;
+    height: 100vh;
+    min-height: 600px;
+    background-image: url(./images/about-woman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.home-section .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 600px;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.home-section .content span {
+    color: green;
+}
+/* home styling ends */
+/* Service styling start */
+.service-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.service-section h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.service-section .service-items {
+display: flex;
+margin-top: 50px;
+width: 100%;
+justify-content: space-between;
+}
+.service-section .service-items .service-item {
+    padding: 40px;
+    width: 33%;
+    border: 1px solid blue;
+    border-radius: 10px;
+    text-align: center;
+
+}
+/* Service styling end */
