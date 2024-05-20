@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-weight: 400;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  background-color: rgb(232, 224, 241);
+}
+
+.container {
+  display: flex;
+  width: 400px;
+  height: 270px;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(61, 23, 231);
+  border-radius: 15px;
+  opacity: 0.9;
+  text-align: center;
+  color: #fff;
+  padding: 20px 20px;
+  width: 50%;
+  height: 100%;
+}
+.rounded {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin: 20px 0;
+  background-color: rgb(14, 0, 204);
+  padding: 20px;
+  border-radius: 50%;
+}
+.left-block p {
+  font-size: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.right-block {
+  width: 50%;
+  background-color: #fff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px 20px;
+  text-align: start;
+}
+.right-block h4 {
+    
+}
+.right-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 10px 8px;
+    border-radius: 5px;
+}
+.right-display .reaction {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.right-display .reaction i {
+   margin-right: 10px;
+  
+}
+
+.right-display.pink{
+    background-color: rgb(250, 234, 237);
+}
+.right-display.pink .reaction{
+   color: rgb(241, 107, 130);
+}
+
+.right-display.yellow{
+    background-color: rgb(248, 248, 225);
+}
+.right-display.yellow .reaction{
+    color: rgb(173, 173, 3)
+}
+.right-display.green{
+  background-color: rgb(95, 150, 94);
+}
+.right-display.green .reaction{
+  color: rgb(11, 240, 133)
+}
+.right-display.purple{
+  background-color: rgb(158, 155, 161);
+}
+.right-display.purple .reaction{
+  color: rgba(123, 2, 245, 0.808);
+}
+.deep-span {
+    color:rgb(4, 4, 87)
+}
+.light-span {
+    color: rgb(133, 144, 155);
+}
+
+button {
+    border: 0;
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px 0;
+    background-color: rgb(3, 3, 63);
+    color: #fff;
+    border-radius: 20px
+}
